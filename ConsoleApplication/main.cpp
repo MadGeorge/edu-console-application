@@ -4,6 +4,8 @@
 //
 //  Created by George Romas on 28.11.22.
 //
+//  https://github.com/MadGeorge/edu-console-application
+//
 
 #include <iostream>
 
