@@ -7,13 +7,11 @@
 //  https://github.com/MadGeorge/edu-console-application
 //
 
-#include <iostream>
-
-void Printf() {
-    std::cout << "Hello\n";
-}
+#include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    Printf();
+
+    printf("Hello\n");
+
     return 0;
 }
