@@ -7,8 +7,11 @@
 
 #include <iostream>
 
+void Printf() {
+    std::cout << "Hello\n";
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Printf();
     return 0;
 }
