@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5E6A70172934AFDB00506F6E /* Console Application */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Console Application"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6A70172934AFDB00506F6E /* ConsoleApplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleApplication; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6A701A2934AFDB00506F6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		5E6A700E2934AFDB00506F6E = {
 			isa = PBXGroup;
 			children = (
-				5E6A70192934AFDB00506F6E /* Console Application */,
+				5E6A70192934AFDB00506F6E /* ConsoleApplication */,
 				5E6A70182934AFDB00506F6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		5E6A70182934AFDB00506F6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E6A70172934AFDB00506F6E /* Console Application */,
+				5E6A70172934AFDB00506F6E /* ConsoleApplication */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E6A70192934AFDB00506F6E /* Console Application */ = {
+		5E6A70192934AFDB00506F6E /* ConsoleApplication */ = {
 			isa = PBXGroup;
 			children = (
 				5E6A701A2934AFDB00506F6E /* main.cpp */,
 			);
-			path = "Console Application";
+			path = ConsoleApplication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E6A70162934AFDB00506F6E /* Console Application */ = {
+		5E6A70162934AFDB00506F6E /* ConsoleApplication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E6A701E2934AFDB00506F6E /* Build configuration list for PBXNativeTarget "Console Application" */;
+			buildConfigurationList = 5E6A701E2934AFDB00506F6E /* Build configuration list for PBXNativeTarget "ConsoleApplication" */;
 			buildPhases = (
 				5E6A70132934AFDB00506F6E /* Sources */,
 				5E6A70142934AFDB00506F6E /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "Console Application";
+			name = ConsoleApplication;
 			productName = "Console Application";
-			productReference = 5E6A70172934AFDB00506F6E /* Console Application */;
+			productReference = 5E6A70172934AFDB00506F6E /* ConsoleApplication */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E6A70122934AFDB00506F6E /* Build configuration list for PBXProject "Console Application" */;
+			buildConfigurationList = 5E6A70122934AFDB00506F6E /* Build configuration list for PBXProject "ConsoleApplication" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E6A70162934AFDB00506F6E /* Console Application */,
+				5E6A70162934AFDB00506F6E /* ConsoleApplication */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E6A70122934AFDB00506F6E /* Build configuration list for PBXProject "Console Application" */ = {
+		5E6A70122934AFDB00506F6E /* Build configuration list for PBXProject "ConsoleApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E6A701C2934AFDB00506F6E /* Debug */,
@@ -267,7 +267,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E6A701E2934AFDB00506F6E /* Build configuration list for PBXNativeTarget "Console Application" */ = {
+		5E6A701E2934AFDB00506F6E /* Build configuration list for PBXNativeTarget "ConsoleApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E6A701F2934AFDB00506F6E /* Debug */,
