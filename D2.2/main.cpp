@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <errno.h>
+#include <cmath>
 
 // infinitely recursive
 int getInput() {
@@ -22,12 +22,12 @@ int getInput() {
     if (scanf("%f %f", &a, &b) == 2) {
         printf("Comparing: %f > %f\n", a, b);
 
-        if (a == b) {
-            printf("Numbers are EQUALS\n");
-        } else if (a > b) {
+        if (isless(a, b)) {
+            printf("First number is SMALLER\n");
+        } else if (isgreater(a, b)) {
             printf("First number is GREATER\n");
         } else {
-            printf("First number is SMALLER\n");
+            printf("Numbers are EQUALS\n");
         }
 
         printf("\nInput next pair of numbers or press CNTRL+C to exit\n");
