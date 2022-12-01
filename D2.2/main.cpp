@@ -11,7 +11,6 @@
 #include <stdlib.h>
 #include <cmath>
 
-// infinitely recursive
 int getInput() {
     fflush(stdin);
 
@@ -30,14 +29,11 @@ int getInput() {
             printf("Numbers are EQUALS\n");
         }
 
-        printf("\nInput next pair of numbers or press CNTRL+C to exit\n");
-
-        return getInput();
+        return 0;
     }
 
     printf("Invalid input. Please, try again.\n");
-
-    return getInput();
+    return 1;
 }
 
 int main(int argc, const char * argv[]) {
