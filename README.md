@@ -17,15 +17,18 @@ https://github.com/MadGeorge/edu-console-application
 
 ```bash
 # run task D1.1
-> g++ -std=c++1 D1.1/main.cpp && ./a.out
+> g++ -std=c++11 D1.1/main.cpp && ./a.out
 
 # run task D2.2
-> g++ -std=c++1 D2.2/main.cpp && ./a.out
+> g++ -std=c++11 D2.2/main.cpp && ./a.out
 
 # run task D2.3 Part 1 
-> g++ -std=c++1 D2.3/main.cpp && ./a.out login
+> g++ -std=c++11 D2.3/main.cpp && ./a.out login
 
 # run task D2.3 Part 2 
-> g++ -std=c++1 D2.3/main.cpp && ./a.out signup
-> g++ -std=c++1 D2.3/main.cpp && ./a.out signin
+> g++ -std=c++11 D2.3/main.cpp && ./a.out signup
+> g++ -std=c++11 D2.3/main.cpp && ./a.out signin
+
+# run task D2.4 
+> g++ -std=c++11 -c D2.4/App.cpp D2.4/main.cpp && g++ App.o main.o && ./a.out 7
 ```
