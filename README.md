@@ -30,5 +30,5 @@ https://github.com/MadGeorge/edu-console-application
 > g++ -std=c++11 D2.3/main.cpp && ./a.out signin
 
 # run task D2.4 
-> g++ -std=c++11 -c D2.4/App.cpp D2.4/main.cpp && g++ App.o main.o && ./a.out 7
+> g++ -std=c++11 -c D2.4/*.cpp && g++ *.o && ./a.out 7
 ```
