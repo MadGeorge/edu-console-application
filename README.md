@@ -32,6 +32,12 @@ https://github.com/MadGeorge/edu-console-application
 # run task D2.4 
 > g++ -std=c++11 -c D2.4/*.cpp && g++ *.o && ./a.out 7
 
-# run task D2.6 
-> g++ -std=c++11 -c D2.6/*.cpp && g++ *.o && ./a.out
+# run task D3.5 1.1
+> g++ -std=c++11 D3.5/app_1_1.cpp && ./a.out
+
+# run task D3.5 1.2
+> g++ -std=c++11 D3.5/app_1_1.cpp && ./a.out
+
+# run task D3.5 2
+> g++ -std=c++11 D3.5/app_2.cpp && ./a.out
 ```
