@@ -40,4 +40,13 @@ https://github.com/MadGeorge/edu-console-application
 
 # run task D3.5 2
 > g++ -std=c++11 D3.5/app_2.cpp && ./a.out
+
+# run task D3.6 1
+> g++ -std=c++11 D3.6/app_1.cpp && ./a.out
+
+# run task D3.6 2
+> g++ -std=c++11 D3.6/app_2.cpp && ./a.out
+
+# run task D3.7
+> g++ -std=c++11 D3.7/app.cpp && ./a.out
 ```
