@@ -49,4 +49,7 @@ https://github.com/MadGeorge/edu-console-application
 
 # run task D3.7
 > g++ -std=c++11 D3.7/app.cpp && ./a.out
+
+# run task D3.8
+> g++ -std=c++11 D3.8/app.cpp && ./a.out 1 2 3 4 55 42
 ```
