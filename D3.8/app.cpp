@@ -31,12 +31,10 @@ int main(int argc, const char * argv[]) {
         cnt++;
     }
 
-
     float avg = (float)sum / (float)cnt;
 
     printf("input is: %s\n", input.c_str());
     printf("min: %d, max: %d, sum: %d, avg: %.1f\n", min, max, sum, avg);
-
 
     return 0;
 }
