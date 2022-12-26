@@ -15,7 +15,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     // MARK - populate
     int total = stoi(argv[1]);
-    int numbers[total];
+    int* numbers = new int(total);
 
     for (int i = 0; i < total; i++) {
         numbers[i] = i;
@@ -23,14 +23,12 @@ int main(int argc, const char * argv[]) {
 
     // MARK - output
 
-    auto count = sizeof(numbers) / sizeof(int);
-
     printf("[");
 
-    for (int i = 0; i < count; i++) {
+    for (int i = 0; i < total; i++) {
         printf("%d", numbers[i]);
 
-        if (i < (count - 1)) printf(" ");
+        if (i < (total - 1)) printf(" ");
     }
 
     printf("]\n");
