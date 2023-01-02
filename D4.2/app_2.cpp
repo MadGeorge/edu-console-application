@@ -15,7 +15,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     // MARK - populate
     int total = stoi(argv[1]);
-    int* numbers = new int(total);
+    int* numbers = new int[total];
 
     for (int i = 0; i < total; i++) {
         numbers[i] = i;
@@ -32,6 +32,8 @@ int main(int argc, const char * argv[]) {
     }
 
     printf("]\n");
+
+    delete[] numbers;
 
     return 0;
 }
