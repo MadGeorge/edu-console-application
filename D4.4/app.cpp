@@ -2,7 +2,7 @@
 //  main.cpp
 //  Console Application
 //
-//  Created by George Romas on 19.01.23.
+//  Created by George Romas on 23.01.23.
 //
 //  https://github.com/MadGeorge/edu-console-application
 //
@@ -12,21 +12,21 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    int min = stoi(argv[1]);
-    int max = stoi(argv[1]);
+    int input[argc - 1];
+    for (auto i = 1; i < argc; i++) input[i - 1] = stoi(argv[i]);
+
+    int min = input[0];
+    int max = input[0];
     int sum = 0;
 
     printf("input is: ");
-    for (auto i = 1; i < argc; i++) {
-        auto arg = stoi(argv[i]);
+    for (int n : input) {
+        printf("%d ", n);
 
-        printf("%d", arg);
-        if (i < argc - 1) printf(", ");
+        if (n < min) min = n;
+        if (n > max) max = n;
 
-        if (arg < min) min = arg;
-        if (arg > max) max = arg;
-
-        sum += arg;
+        sum += n;
     }
     printf("\n");
 
