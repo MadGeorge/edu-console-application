@@ -60,7 +60,7 @@ int main(int argc, const char * argv[]) {
     }
 
     printf("\n");
-    printf("You matrix looks like:\n");
+    printf("Your matrix looks like:\n");
     printf("[\n");
     for (auto r = 0; r < rows; r++) {
         printf(" [");
