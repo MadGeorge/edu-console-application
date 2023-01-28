@@ -6,11 +6,7 @@
 //
 //  https://github.com/MadGeorge/edu-console-application
 //
-#include <iostream>
 #include <stdio.h>
-#include <string.h>
-#include <unistd.h>
-#include <string>
 #include <random>
 
 using namespace std;
