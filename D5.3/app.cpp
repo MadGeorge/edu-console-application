@@ -29,16 +29,18 @@ int main(int argc, const char * argv[]) {
         return 1;
     }
 
-    int matrix[rows][columns];
+    int** matrix = new int*[rows];
 
     printf("\n");
 
     mt19937 generator((random_device()()));
     uniform_int_distribution<> distr(-2, 7);
 
-    for (int r = 0; r < rows; r++)
-        for (int c = 0; c < columns; c++)
-            matrix[r][c] = distr(generator);
+    for (int r = 0; r < rows; r++) {
+        matrix[r] = new int[columns];
+
+        for (int c = 0; c < columns; c++) matrix[r][c] = distr(generator);
+    }
 
     printf("\n");
     printf("Your matrix looks like:\n");
@@ -53,6 +55,9 @@ int main(int argc, const char * argv[]) {
         printf("]\n");
     }
     printf("]\n");
+
+    for (auto r = 0; r < rows; r++) delete[] matrix[r];
+    delete[] matrix;
 
     return 0;
 }
