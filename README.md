@@ -67,4 +67,7 @@ https://github.com/MadGeorge/edu-console-application
 
 # run task D5.3
 > g++ -std=c++11 D5.3/app.cpp && ./a.out 
+
+# run task D5.5
+> g++ -std=c++11 D5.5/app.cpp && ./a.out 
 ```
