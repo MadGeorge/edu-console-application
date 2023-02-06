@@ -88,6 +88,8 @@ int main(int argc, const char * argv[]) {
 
     printMatrix(size, flipped);
 
+    for (auto r = 0; r < size; r++) delete[] matrix[r];
+    for (auto r = 0; r < size; r++) delete[] flipped[r];
     delete[] matrix;
     delete[] flipped;
 
