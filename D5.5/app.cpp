@@ -83,7 +83,6 @@ int main(int argc, const char * argv[]) {
     printf("\n");
     printf("Flipped matrix:\n");
 
-    printf("....\n");
     int** flipped = flipMatrix(size, matrix);
 
     printMatrix(size, flipped);
