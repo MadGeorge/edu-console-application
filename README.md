@@ -76,4 +76,19 @@ https://github.com/MadGeorge/edu-console-application
 
 # run task D5.6 2
 > g++ -std=c++11 D5.6/app_2.cpp && ./a.out
+
+# run task D6.3 1
+> g++ -std=c++11 D6.3/app_1.cpp && ./a.out
+
+# run task D6.3 2
+> g++ -std=c++11 D6.3/app_2.cpp && ./a.out
+
+# run task D6.3 2
+> g++ -std=c++11 D6.3/app_3.cpp && ./a.out
+
+# run task D6.4 1
+> g++ -std=c++11 D6.4/app_1.cpp && ./a.out
+
+# run task D6.4 2
+> g++ -std=c++11 D6.4/app_2.cpp && ./a.out
  
