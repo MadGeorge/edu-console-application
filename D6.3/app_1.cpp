@@ -14,7 +14,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     char str[256];
 
-    printf("input max 256 characters: ");
+    printf("input max 255 characters: ");
     fgets(str, sizeof(str), stdin);
 
     printf("Second character is: %c\n", str[1]);
