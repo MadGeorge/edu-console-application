@@ -9,11 +9,10 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <string>
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main() {
     char origin[256] = "abcdefghijk";
     char flipped[strlen(origin) + 1];
 

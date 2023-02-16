@@ -12,7 +12,7 @@
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main() {
     char str[256];
 
     printf("input max 255 characters: ");
