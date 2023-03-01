@@ -94,4 +94,10 @@ https://github.com/MadGeorge/edu-console-application
 
 # run task D7.2
 > g++ -std=c++11 D7.2/app.cpp && ./a.out
+
+# run task D7.3
+> g++ -std=c++11 D7.3/app.cpp && ./a.out
+
+# run task D7.4
+> g++ -std=c++11 D7.4/app.cpp && ./a.out
  
