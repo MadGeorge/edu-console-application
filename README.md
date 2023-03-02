@@ -102,7 +102,16 @@ https://github.com/MadGeorge/edu-console-application
 > g++ -std=c++11 D7.4/app.cpp && ./a.out
 
 # run task D8.1 P1
-> rm *.o && g++ -std=c++11 -c D8.1/P1/*.cpp && g++ *.o && ./a.out
+> g++ -std=c++11 -c D8.1/P1/*.cpp && g++ *.o && ./a.out
 
 # run task D8.1 P2
-> rm *.o && g++ -std=c++11 -c D8.1/P2/*.cpp && g++ *.o && ./a.out
+> g++ -std=c++11 -c D8.1/P2/*.cpp && g++ *.o && ./a.out
+
+# run task D8.2 T1
+> g++ -std=c++11 -c D8.2/T1/*.cpp && g++ *.o && ./a.out && rm *.o
+
+# run task D8.2 T2
+> g++ -std=c++11 -c D8.2/T2/*.cpp && g++ *.o && ./a.out && rm *.o
+
+# run task D8.2 T3
+> g++ -std=c++11 -c D8.2/T3/*.cpp && g++ *.o && ./a.out && rm *.o
