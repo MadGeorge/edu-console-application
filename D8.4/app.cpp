@@ -36,7 +36,7 @@ public:
         this->height = height;
     }
 
-    float f(float x) {
+    float f(float x) override {
         // (x^2)/3 + (y^2)/5 = 1
         // (x^2)/w + (y^2)/h = 1
         // y^2 / h = 1 - x^2/w
@@ -54,14 +54,14 @@ public:
         this->factor = factor;
     }
 
-    float f(float x) {
+    float f(float x) override {
         return factor / x;
     }
 };
 
 class Parabola: public Function {
 public:
-    float f(float x) {
+    float f(float x) override {
         return x * x;
     }
 };
@@ -71,8 +71,6 @@ void out(Function* fn, float x) {
 }
 
 int main() {
-    Function* fn;
-
     Ellipse el(5, 3);
     Hyperbola hy(1);
     Parabola pa;
