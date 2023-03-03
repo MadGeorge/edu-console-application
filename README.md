@@ -115,3 +115,6 @@ https://github.com/MadGeorge/edu-console-application
 
 # run task D8.2 T3
 > g++ -std=c++11 -c D8.2/T3/*.cpp && g++ *.o && ./a.out && rm *.o
+
+# run task D8.4
+> g++ -std=c++11 -c D8.4/*.cpp && g++ *.o && ./a.out && rm *.o
